@@ -1,0 +1,56 @@
+VALIDAÇÃO — 04/11/2026
+
+- 87 ferramentas do HTML de referência preservadas.
+- Opção Converter HEIC incluída na lista comum: 88 ferramentas no total.
+- Interface simplificada em português, sem indicadores internos.
+- Busca, categorias, favoritos, temas claro/escuro e navegação conferidos.
+- Abertura das 88 telas verificada no Chrome 156.0.8078.80.
+- 26 testes de operações aprovados, sem erros de JavaScript.
+- Nenhum recurso externo solicitado durante os testes offline.
+- Layout de celular conferido em 320 px, sem rolagem horizontal na página inicial.
+- index.html aberto diretamente pelo sistema de arquivos, sem internet,
+  com extração de texto de PDF aprovada.
+- Verificação TypeScript e build de produção aprovados.
+
+HEIC
+- Foto HEIC real convertida para JPG, PNG e WebP.
+- Duas fotos HEIC convertidas em lote e entregues num ZIP.
+
+RELATÓRIO FOTOGRÁFICO
+- Relatório com uma foto HEIC e uma foto PNG, ambas com legendas.
+- PDF gerado com 3 páginas e imagens incorporadas.
+- Word gerado com fotos e legendas verificadas.
+- Trabalho salvo em arquivo incluindo as duas fotos.
+
+OUTRAS OPERAÇÕES CONFERIDAS
+- Juntar dois PDFs
+- pdf-para-texto
+- pdf-para-word
+- pdf-para-excel
+- pdf-para-powerpoint
+- pdf-para-imagens
+- pdf-para-html
+- Texto para PDF
+- svg-para-png
+- converter-imagem
+- redimensionar-imagem
+- comprimir-imagem
+- filtros-imagem
+- gerador-favicon
+- conversor-imagens-lote
+- Extração de áudio de vídeo
+- Gerador de QR Code
+- Leitor de QR Code
+- Criar ZIP
+- Extrair ZIP
+- Relatório fotográfico PDF e Word
+
+CORREÇÕES
+- Identificadores de extração de áudio e de conversão de SVG alinhados ao catálogo.
+- Estados das ferramentas isolados para evitar falhas ao trocar de operação.
+- PDF para PowerPoint passou a gerar .pptx real, com as páginas em slides.
+- Worker, fontes e decodificadores de PDF incorporados ao próprio HTML.
+
+Os testes usaram arquivos sintéticos e uma foto HEIC pública do projeto libheif.
+Câmera, microfone e captura de tela dependem das permissões e do suporte do
+navegador; não foram realizados testes com os dispositivos físicos do usuário.

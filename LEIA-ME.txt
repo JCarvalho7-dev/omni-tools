@@ -1,0 +1,41 @@
+OMNITOOLS — PUBLICAÇÃO NO GITHUB E NA VERCEL
+
+O site completo está no arquivo index.html. Os scripts, estilos, fontes e
+recursos de conversão já estão incluídos nele. Não precisa instalar nada.
+
+COMO PUBLICAR
+1. Extraia o ZIP.
+2. Crie um repositório no GitHub e envie os arquivos extraídos para a raiz.
+   O index.html e o vercel.json devem aparecer diretamente na primeira pasta
+   do repositório. Não envie o ZIP como um arquivo dentro do GitHub.
+3. Na Vercel, escolha Add New > Project e importe esse repositório.
+4. Clique em Deploy.
+
+O vercel.json já define as configurações de publicação. Se aparecerem campos
+para configurar manualmente, use:
+- Framework Preset: Other (Outros).
+- Build Command: vazio.
+- Install Command: vazio.
+- Output Directory: . (um ponto, a própria pasta).
+- Root Directory: raiz do repositório.
+
+Se usar o projeto da Vercel criado para a versão anterior, confira esses campos:
+a nova versão é um site pronto e não precisa do comando npm run build.
+Não é necessária chave Gemini, banco de dados ou conta no AI Studio.
+
+USO
+- Procure pelo nome de uma ferramenta ou filtre pela categoria.
+- Converter HEIC fica em Imagens & Fotos e converte para JPG, PNG ou WebP.
+  Também aceita várias fotos de uma vez e entrega as imagens em ZIP.
+- Relatório fotográfico fica em PDF & Documentos. Permite escolher o modelo,
+  preencher dados, adicionar fotos HEIC/JPG/PNG, escrever legendas e gerar
+  PDF ou Word. Use Salvar trabalho para guardar o relatório com suas fotos
+  e continuar depois; os modelos e textos também podem ser exportados.
+- Todas as ferramentas usam o mesmo padrão visual, sem destaques especiais.
+
+O index.html também pode ser aberto diretamente no navegador. Para recursos
+como câmera, microfone e gravação de tela, use o site publicado em HTTPS e
+conceda as permissões solicitadas pelo navegador.
+
+Referência de publicação:
+https://vercel.com/docs/builds/configure-a-build
